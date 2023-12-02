@@ -9,11 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.18",
+    "@mui/x-date-pickers": "^6.18.1",
+    "@mui/x-date-pickers-pro": "^6.18.1",
+    "axios": "^1.6.2",
+    "babel": "^6.23.0",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.10",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "next": "^14.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.2"
+    "swr": "^2.2.4"
   },
   "devDependencies": {
+    "@types/node": "20.10.2",
     "eslint": "^8",
     "eslint-config-next": "14.0.2"
   }

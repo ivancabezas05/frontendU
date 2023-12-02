@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+
+
+
+.icono1{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+
+}
+
+.titulobarra{
+    color: var(--m-3-sys-light-on-surface, #1D1B20);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.titulo2{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #CAC4D0;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.titulo2 span{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+}
+
+.dropdown  img{
+    padding-left: 20px;
+    width: 30px;
+}
+
+.dropdown_body{
+    width: fit-content;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none!important;
+    padding: 5px;
+}
+
+.icono1 img{
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #Fff;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    padding: 8px 0px;
+    background: var(--m-3-sys-light-surface-container, #F3EDF7);
+    position: sticky;
+    z-index: 99px;
+    top:0px;
+}
+
+.xd{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.barralateral{
+    width: 200px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: #D9D9D9;
+    
+}
+
+.opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    padding-left: 0px;
+    gap:20px;
+}
+
+.li{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    list-style: none;
+    color: var(--m-3-sys-light-primary, #6750A4);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+    width: 53%;
+    height: 30px;
+    padding: 10px 12px; 
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:active{
+    text-decoration: none;
+} 
+
+.link:visited{
+    text-decoration: none;
+}
+
+
+.li:hover{
+    background-color:#CAC4D0;
+    color:#1D1B20;
+    transition: 0.5s all;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.parte2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    gap:15px;
+    box-sizing: border-box;
+}
+
+
+
+.recuadro1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 20px 30px;
+    gap:10px;
+    width:98%;
+    height: 230px;
+    
+}
+
+.cuadro{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 12px;
+    border: 1px solid var(--m-3-sys-light-outline-variant, #CAC4D0);
+    background: var(--m-3-sys-light-surface, #FEF7FF);  
+    border-radius: 10px;
+    width: 31%;
+    height: 101px;
+    cursor: pointer;
+
+}
+
+.imagencuadro{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagencuadro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.contenedorimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 14%;
+    height: 100%;
+    
+}
+
+.contenedorimg img{
+    width: 30px;
+    border-radius: 20px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+    width: 100%;
+    height: 220px;
+    
+}
+
+.texto{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+
+.textito{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;  
+}
+
+.articulo1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    height: 264px;
+    background: #F3EDF7; 
+}
+
+.articulo2{
+    background-color: #F3EDF7;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    height: 264px;
+    
+}
+
+.opcion{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.textito p{
+    color: var(--m-3-sys-light-on-surface, #1D1B20);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.textito span{
+    color: var(--m-3-sys-light-on-surface, #1D1B20);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+    margin-right: 100px;
+    font-size: large;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+}
+
+.contenedorModal{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    overflow-y: auto;
+}
+
+.reservaItemModal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+}
+
+.reservaItemModal img{
+    width: 30%;
+    height: 100%;
+}
+
+.details{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.details p{
+    padding: 100px 0;
+}
+

@@ -1,0 +1,32 @@
+[
+    {
+        "idReserva": 1,
+        "correoAlumno": "cesarmoron23@gmail.com",
+        "tituloLibro": "Software la Superbabosa",
+        "anio": 2023,
+        "mes": 11,
+        "dia": 2,
+        "hora": 16,
+        "minuto": 0
+    },
+    {
+        "idReserva": 2,
+        "correoAlumno": "cesarmoron23@gmail.com",
+        "tituloLibro": "Reemplazada por un Software",
+        "anio": 2022,
+        "mes": 11,
+        "dia": 2,
+        "hora": 12,
+        "minuto": 0
+    },
+    {
+        "idReserva": 3,
+        "correoAlumno": "carlosmorales@gmail.com",
+        "tituloLibro": "Ingeniería de Software",
+        "anio": 2021,
+        "mes": 11,
+        "dia": 2,
+        "hora": 10,
+        "minuto": 0
+    }
+]

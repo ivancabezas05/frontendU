@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+
+/*Estilos generales*/
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title,.subtitle {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #cac4d0;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.title span {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 20px;
+}
+
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3edf7;
+}
+
+/*Estilos del Book Info Header*/
+
+.bookInfo_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.boton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: var(--m-3-sys-light-primary, #6750a4)!important;
+  color: var(--m-3-sys-light-on-primary, #fff);
+  text-align: center;
+  /* M3/label/large */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 0 15px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #3c2b6d;
+}
+
+.estado{
+  padding: 10px 15px;
+  background-color:#cec6d4;
+  border-radius:10px;
+}
+
+/*Estilos del Book Info details*/
+.bookInfo_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.imgBook {
+  max-width: 10%;
+}
+
+.descpBook {
+  max-width: 52%;
+}
+
+.editorial {
+  display: flex;
+  flex-direction: column;
+  max-width: 28%;
+}
+/*Estilos del Book Info topic*/
+.bookInfo_topic {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.categoryTagContainer {
+  display: flex; /* o display: inline-flex; */
+  margin: 2px; /* Espacio entre las etiquetas */
+}
+
+.categoryTag {
+  border: 1px solid #ccc; /* Estilo, ancho y color del borde */
+  padding: 2px 5px; /* Espaciado interno para que el borde no esté pegado al texto */
+  margin-right: 5px; /* Espacio entre las etiquetas */
+  color: #6750a4;
+  border-radius: 8px;
+  background-color: none;
+  margin-bottom: 4ch;
+}
+
+/* Estilos para Reserva Bottom*/
+
+.subtitle span {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 20px;
+}
+.formReserva{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

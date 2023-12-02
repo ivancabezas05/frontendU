@@ -1,0 +1,478 @@
+.libro {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--m-3-sys-light-outline-variant, #cac4d0);
+  cursor:pointer;
+}
+
+.librocuadro1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  padding: 12px 4px 12px 16px;
+}
+
+.icono3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #6750a4;
+  margin-right: 10px;
+}
+
+.icono3 span {
+  color: var(--m-3-sys-light-surface, #fef7ff);
+  text-align: center;
+  font-family: "roboto" "sans serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.imglibro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 178px;
+  background-image: url(https://img.freepik.com/vector-gratis/interior-biblioteca-sala-vacia-leer-libros-estantes-madera_33099-1722.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imglibro img {
+  width: 100px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.imglibro2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(225, 75, 75);
+  width: 186px;
+  height: 181px;
+  flex-shrink: 0;
+}
+
+.informacionlibro {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.contenedorbotonreserva {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedorbotonreserva button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: var(--m-3-sys-light-primary, #6750a4);
+  color: var(--m-3-sys-light-on-primary, #fff);
+  text-align: center;
+  /* M3/label/large */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 24px;
+  outline: none;
+  border: none;
+}
+
+.lupa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 10px 10px;
+}
+
+.lupa2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  padding: 10px 10px;
+}
+
+.lupa img {
+  margin-top: 2ch;
+  width: 100%;
+}
+
+.lupa2 img {
+  margin-top: 2ch;
+  width: 150%;
+  margin-right: 1ch;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 540px;
+  height: 44px;
+}
+
+.busqueda {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 574px;
+  height: 55px;
+  border: 2px solid #6750a4;
+  border-radius: 4px 4px 0px 0px;
+  padding: 4px 16px 10px 4px;
+  margin-bottom: 4ch;
+}
+
+.busqueda2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 374px;
+  height: 55px;
+  border: 2px solid #6750a4;
+  border-radius: 4px 4px 0px 0px;
+  padding: 4px 16px 10px 4px;
+  margin-bottom: 4ch;
+}
+
+.busqueda3 {
+  align-items: center;
+  width: 374px;
+  height: 400px;
+  border: 2px solid #6750a4;
+  border-radius: 4px 4px 0px 0px;
+  padding: 4px 16px 10px 4px;
+  margin-bottom: 4ch;
+  margin-left: 3ch;
+  color: black;
+}
+
+.busqueda4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 374px;
+  height: 55px;
+  border: 2px solid #6750a4;
+  border-radius: 4px 4px 0px 0px;
+  padding: 4px 16px 10px 4px;
+  margin-bottom: 1ch;
+}
+
+.input {
+  display: flex;
+  width: 526px;
+  height: 35px;
+  padding: 0px 0px 0px 0px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  color: var(--m-3-sys-light-primary, #6750a4);
+}
+
+.input2 {
+  display: flex;
+  width: 326px;
+  height: 35px;
+  padding: 0px 0px 0px 0px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  color: var(--m-3-sys-light-primary, #6750a4);
+}
+
+.input3 {
+  display: flex;
+  width: 326px;
+  height: 35px;
+  padding: 0px 0px 0px 0px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  color: var(--m-3-sys-light-primary, #6750a4);
+}
+
+.placeholder {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  width: 280px;
+  height: 15px;
+  color: var(--m-3-sys-light-primary, #6750a4);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* En barrareserva.module.css */
+.resultadosGrid {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.resultadoBox {
+  width: 28%;
+  margin: 8px;
+  padding: 0px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  color: black;
+}
+
+.resultadoImg {
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  background-color: rgb(20, 142, 142);
+}
+
+.resultadoBox h2 {
+  margin: 0;
+}
+
+.resultadoBox h3 {
+  margin: 0;
+}
+
+.resultadoBox img {
+  width: 100%;
+  max-height: 150px;
+}
+
+.categoryX {
+  background: transparent;
+  border: none;
+  color-scheme: white;
+  width: 18px;
+  height: 18px;
+  padding: 3.75px;
+}
+
+.categoryTagContainer {
+  display: flex; /* o display: inline-flex; */
+  margin: 2px; /* Espacio entre las etiquetas */
+}
+
+.categoryTag {
+  border: 1px solid #ccc; /* Estilo, ancho y color del borde */
+  padding: 2px 5px; /* Espaciado interno para que el borde no esté pegado al texto */
+  margin-right: 5px; /* Espacio entre las etiquetas */
+  color: #6750a4;
+  border-radius: 8px;
+  background-color: none;
+  margin-bottom: 4ch;
+}
+
+.boton {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: var(--m-3-sys-light-primary, #6750a4);
+  color: var(--m-3-sys-light-on-primary, #fff);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 5px 24px;
+  border: none;
+  top: 350px;
+  right: 1136px;
+  border-radius: 100px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.recuadro1 {
+  align-items: start;
+  width: 1090px;
+  height: 328px;
+  background-color: #fef7ff;
+}
+
+.busquedalibro {
+  display: flex;
+  max-width: 100%;
+  height: 70px;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  padding-right: 100px;
+}
+
+.botoncambio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 100px;
+  background-color: #cac4d0;
+  border: none;
+  outline: none;
+  padding: 5px;
+  text-align: center;
+  font-family: "roboto" "sans serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.botoncambio:hover {
+  background-color: #6750a4;
+  color: #fff;
+}
+
+.botones {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  height: 100%;
+  margin-top: 10ch;
+  position: absolute;
+  top: 1px;
+  left: 1136px;
+}
+
+.botones2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  width: 950px;
+  height: 100%;
+}
+.boton1 {
+  color: var(--m-3-sys-light-primary, #6750a4);
+  text-align: center;
+  /* M3/label/large */
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 1px solid var(--m-3-sys-light-outline, #79747e);
+  outline: none;
+  cursor: pointer;
+}
+
+.boton2 {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  outline: none;
+  border-radius: 100px;
+  background: var(--m-3-sys-light-primary, #6750a4);
+  color: var(--m-3-sys-light-on-primary, #fff);
+  text-align: center;
+  /* M3/label/large */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  border: none;
+  cursor: pointer;
+}
+
+.checkboxs {
+  display: flex;
+  justify-content: right;
+  flex-direction: initial;
+
+  align-items: flex-end; /* Alinea los elementos a la derecha */
+  margin-top: 10px;
+}
+
+.checkboxs span {
+  color: #6750a4;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.checkboxs div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.checkboxs input {
+  width: 20px;
+  height: 20px;
+}
+
+.contenido {
+  display: block;
+  display: flex;
+  justify-content: right;
+  align-items: start;
+  flex-direction: column;
+}
+.checkboxRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px; /* Espacio entre cada fila de checkbox */
+}

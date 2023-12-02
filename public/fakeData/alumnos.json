@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nombres": "César Hernan",
+    "apellidos": "Morón Loayza",
+    "tipoDocumento": "DNI",
+    "nroDocumento": "1111",
+    "correo": "cesarmoron23@gmail.com",
+    "password": "1111",
+    "repetirPassword": "1111"
+  },
+  {
+    "id": 2,
+    "nombres": "Carlos Francisco",
+    "apellidos": "Morales Chavez",
+    "tipoDocumento": "DNI",
+    "nroDocumento": "2222",
+    "correo": "carlosmorales@gmail.com",
+    "password": "2222",
+    "repetirPassword": "2222"
+  }
+]

@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+
+
+
+.icono1{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+
+}
+
+.titulobarra{
+    color: var(--m-3-sys-light-on-surface, #1D1B20);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.titulo2{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #CAC4D0;
+    height: 50px;
+    width: 100%;
+  
+}
+
+.titulo2 span{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.icono2{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.icono2 img{
+    width: 100%;
+}
+
+.icono1 img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #Fff;
+}
+
+
+.opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap:20px;
+}
+
+.li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    color: var(--m-3-sys-light-primary, #6750A4);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    cursor: pointer;
+    width: 53%;
+    height: 30px;
+    padding: 10px 0px;
+}
+
+.li:hover{
+    background-color:#CAC4D0;
+    color:#1D1B20;
+    transition: 0.5s all;
+}
+
+.parte2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 700px;
+    gap:30px;
+    
+}
+
+
+
+.recuadro1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 98%;
+    height: 600px;
+    margin: 10px 10px; 
+}
+
+.cuadro1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left:5px ;
+    width: 30%;
+    height: 480px;
+}
+
+.cuadro2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5px;
+    width: 70%;
+    height: 480px;
+    gap:20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+   
+}
+
+
+.articulo1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% - 142px);
+    background: #F3EDF7; 
+    
+}
+
+
+.opcion{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 1200px;
+    height: 20px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.barracuadro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    background-color: #FEF7FF;
+    border-radius: 10px;
+    border: 1px solid #6750A4;
+    box-sizing:border-box;
+}
+
+.opcionescuadro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    padding: 10px 10px 0px 10px;
+}
+
+.licuadro{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    height: 27px;
+    color: #79747E;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    cursor: pointer;
+}
+
+.licuadro:hover{
+    border-bottom: 5px solid #6750A4;
+    color:#6750A4
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap:30px;
+    
+    
+}
+
+.label{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    padding: 8px 0px 8px 0px;
+    border: 2px solid #6750A4;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.input{
+    display:flex;
+    width: 284px;
+    height: 25px;
+    padding: 8px 0px 8px 16px;
+    background-color:  #F3EDF7;
+    border: none;
+    outline: none;
+    color:#6750A4;
+}
+
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 247px;
+    height: 40px;
+    border-radius: 100px;
+    outline: none;
+    border: 1px solid var(--m-3-sys-light-outline, #79747E);
+    background-color: #F3EDF7;
+    color:#6750A4;
+    cursor:pointer;
+}
+
+.contenedorphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6750A4;
+    width: 279px;
+    height: 253px;
+    margin-bottom: 90px;
+}
+
+.contenedorphoto img{
+    width: 100%;
+    height: 100%;
+}
+
+.placeholder{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 280px;
+    color: var(--m-3-sys-light-primary, #6750A4);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.Botoncambiar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    height: 50px;
+    
+}
+
+.Botoncambiar input{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: #6750A4;
+    color: #Fff;
+}
+  
+.Botoncambiar label{
+    color:#Fff;
+}
+
+.elementos{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 280px;
+    height: 253px;
+}
+
+.elementos Button{
+    position: relative;
+    bottom: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: #Fff;
+    background-color: #6750A4;
+    padding: 5px;
+}

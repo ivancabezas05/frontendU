@@ -1,0 +1,14 @@
+[
+  {
+    "nombres": "Renato Carlos",
+    "apellidos": "Sanchez Perez",
+    "tipoDocumento": "DNI",
+    "nroDocumento": "2222",
+    "correo": "renato@gmail.com",
+    "password": "2222",
+    "repetirPassword": "2222",
+    "color": "Negro",
+    "prefijo": "Rena",
+    "idioma": "español"
+  }
+]
